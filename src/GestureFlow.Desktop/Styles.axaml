@@ -1,0 +1,130 @@
+<Styles xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Style Selector="Window">
+    <Setter Property="Background" Value="Transparent"/>
+    <Setter Property="Foreground" Value="#242933"/>
+    <Setter Property="FontFamily" Value="Segoe UI"/>
+    <Setter Property="FontSize" Value="14"/>
+  </Style>
+  <Style Selector="Button">
+    <Setter Property="CornerRadius" Value="8"/>
+    <Setter Property="VerticalContentAlignment" Value="Center"/>
+    <Setter Property="Padding" Value="13,8"/>
+    <Setter Property="MinHeight" Value="38"/>
+    <Setter Property="Background" Value="#F4E9DD"/>
+    <Setter Property="BorderBrush" Value="#DCCBBE"/>
+    <Setter Property="BorderThickness" Value="1"/>
+    <Setter Property="Foreground" Value="#303642"/>
+  </Style>
+  <Style Selector="Button:pointerover /template/ ContentPresenter">
+    <Setter Property="Background" Value="#F0E0D2"/>
+    <Setter Property="BorderBrush" Value="#CCAA96"/>
+  </Style>
+  <Style Selector="Button.primary">
+    <Setter Property="Background" Value="#984829"/>
+    <Setter Property="Foreground" Value="White"/>
+    <Setter Property="BorderBrush" Value="#984829"/>
+  </Style>
+  <Style Selector="Button.primary:pointerover /template/ ContentPresenter">
+    <Setter Property="Background" Value="#7D391F"/>
+    <Setter Property="Foreground" Value="White"/>
+  </Style>
+  <Style Selector="Button.windowControl">
+    <Setter Property="CornerRadius" Value="0"/>
+  </Style>
+  <Style Selector="Button.quiet">
+    <Setter Property="Background" Value="Transparent"/>
+    <Setter Property="BorderThickness" Value="0"/>
+    <Setter Property="Foreground" Value="#984829"/>
+    <Setter Property="Padding" Value="6,5"/>
+  </Style>
+  <Style Selector="Button.danger">
+    <Setter Property="Background" Value="#FFF5F4"/>
+    <Setter Property="BorderBrush" Value="#C95049"/>
+    <Setter Property="Foreground" Value="#A62822"/>
+  </Style>
+  <Style Selector="Button:focus-visible">
+    <Setter Property="BorderBrush" Value="#3E2B20"/>
+  </Style>
+  <Style Selector="Button.nav">
+    <Setter Property="HorizontalAlignment" Value="Stretch"/>
+    <Setter Property="HorizontalContentAlignment" Value="Left"/>
+    <Setter Property="Background" Value="Transparent"/>
+    <Setter Property="BorderBrush" Value="Transparent"/>
+    <Setter Property="Foreground" Value="#4D4037"/>
+    <Setter Property="Padding" Value="14,9"/>
+  </Style>
+  <Style Selector="Button.nav.selected">
+    <Setter Property="Background" Value="#984829"/>
+    <Setter Property="BorderBrush" Value="Transparent"/>
+    <Setter Property="Foreground" Value="White"/>
+    <Setter Property="FontWeight" Value="SemiBold"/>
+  </Style>
+  <Style Selector="Button.nav.selected:pointerover /template/ ContentPresenter">
+    <Setter Property="Background" Value="#7D391F"/>
+    <Setter Property="Foreground" Value="White"/>
+  </Style>
+  <Style Selector="Button.danger:pointerover /template/ ContentPresenter">
+    <Setter Property="Background" Value="#FCE5E2"/>
+    <Setter Property="BorderBrush" Value="#C95049"/>
+  </Style>
+  <Style Selector="TextBlock.muted">
+    <Setter Property="Foreground" Value="#5E5148"/>
+    <Setter Property="TextWrapping" Value="Wrap"/>
+  </Style>
+  <Style Selector="TextBlock.pageTitle">
+    <Setter Property="FontSize" Value="28"/>
+    <Setter Property="FontWeight" Value="SemiBold"/>
+  </Style>
+  <Style Selector="Border.card">
+    <Setter Property="Background" Value="#FFF9F3"/>
+    <Setter Property="BorderBrush" Value="#E5D7CA"/>
+    <Setter Property="BorderThickness" Value="1"/>
+    <Setter Property="CornerRadius" Value="14"/>
+    <Setter Property="Padding" Value="20"/>
+  </Style>
+  <Style Selector="ComboBox"><Setter Property="FontSize" Value="17"/>
+    <Setter Property="CornerRadius" Value="7"/>
+    <Setter Property="MinHeight" Value="38"/>
+    <Setter Property="Background" Value="#FFFAF5"/>
+    <Setter Property="BorderBrush" Value="#DCCBBE"/>
+  </Style>
+  <Style Selector="ComboBox.controlChoice">
+    <Setter Property="Width" Value="172"/>
+    <Setter Property="FontSize" Value="14"/>
+    <Setter Property="Height" Value="36"/>
+    <Setter Property="MinHeight" Value="36"/>
+  </Style>
+  <Style Selector="TextBox">
+    <Setter Property="CornerRadius" Value="7"/>
+    <Setter Property="MinHeight" Value="38"/>
+  </Style>
+  <Style Selector="CheckBox"><Setter Property="MinHeight" Value="32"/></Style>
+  <Style Selector="TabControl"><Setter Property="Background" Value="Transparent"/></Style>
+  <Style Selector="TabItem">
+    <Setter Property="Padding" Value="14,10"/>
+    <Setter Property="FontSize" Value="12"/>
+  </Style>
+  <Style Selector="Expander">
+    <Setter Property="Background" Value="Transparent"/>
+    <Setter Property="BorderBrush" Value="#E5D7CA"/>
+    <Setter Property="CornerRadius" Value="10"/>
+    <Setter Property="Padding" Value="12"/>
+  </Style>
+  <Style Selector="ToggleButton.switch">
+    <Setter Property="Width" Value="52"/><Setter Property="Height" Value="28"/>
+    <Setter Property="MinHeight" Value="0"/><Setter Property="Padding" Value="0"/>
+    <Setter Property="Template">
+      <ControlTemplate>
+        <Border Name="Track" CornerRadius="13" Background="#D1D2D8">
+          <Ellipse Name="Knob" Width="22" Height="22" Margin="2" Fill="White" HorizontalAlignment="Left"/>
+        </Border>
+      </ControlTemplate>
+    </Setter>
+  </Style>
+  <Style Selector="ToggleButton.switch:checked /template/ Border#Track"><Setter Property="Background" Value="#984829"/></Style>
+  <Style Selector="ToggleButton.switch:checked /template/ Ellipse#Knob"><Setter Property="HorizontalAlignment" Value="Right"/></Style>
+</Styles>
+
+
+
+

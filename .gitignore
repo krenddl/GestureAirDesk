@@ -1,0 +1,12 @@
+**/bin/
+**/obj/
+.vs/
+tests/fixtures/check-result*.jpg
+
+release/
+**/database.connection
+**/telegram-draft.json
+**/telegram-photo-recipient.txt
+**/*.session
+.env
+.env.*
